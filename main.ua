@@ -1,8 +1,8 @@
 # Experimental!
 I ~ "git: github.com/Marcos-cat/iris"
 
-N ← 20
-S ← 1000
+N ← 20   # how many boids
+S ← 1000 # window size
 
 # Boids = [vs xs]
 # Rules take in Boids and return the delta velocities
