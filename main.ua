@@ -16,8 +16,7 @@ R₁ ← |1 ×p₁-⟜(÷⊃⧻/+)⊣
 R₂ ← |1 ×p₄¯/+˙⊞(×⊸(<p₂⌵)-) ⊣
 R₃ ← |1 ×p₃-⟜(÷⊃⧻/+)⊢
 
-# ? [v x]
-DrawBoid ← (
+DrawBoids ← (
   ⊃(⤚(-÷₂)0.1 ÷τ-η˜∠°ℂ ⊢|⊣)
   I~Draw~Sector I~Color~Hex "#cba6f7" 20
 )
@@ -28,5 +27,5 @@ I~Open S_S "Boids"
 I~Loop!(
   I~Draw~Background I~Color~Hex "#1e1e2e"
   \+ ⍜⊢+ ⟜(/+[⊃(R₁|R₂|R₃)]) # add up rules, update
-  ⊸DrawBoid
+  ⊸DrawBoids
 )
