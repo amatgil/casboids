@@ -10,13 +10,14 @@ S ← 500
 # Parameters
 
 # factor of displacement for Rule 1
-p₁ ← 0.0001
+p₁ ← 0.0000001
 
-R₁ ← |1 ×p₁ -?⟜(÷⊃⧻/+)⊣
+R₁ ← |1 ⊃(×p₁ -⟜(÷⊃⧻/+)⊣|∠°ℂ)
 
 # ? [v x]
 DrawBoid ← (
-  ⊃(⤚(-÷₂)0.1 ∠°ℂ⊢|⊣)
+  A ← |1.2 ⤚(-÷₂)0.1 ÷τ-η ˜∠°ℂ?
+  ⊃(A⊢|⊣)
   I~Draw~Sector ÷255[203 166 247] 20
 )
 
@@ -27,10 +28,10 @@ I~Open S_S "Boids"
 I~Loop!(
   I~Draw~Background ÷255[30 30 46]
 
-  ⍜⊣+⟜R₁
+  ⍜⊢+ ⟜(/+⊃[R₁])
   \+ # update
 
-  # dump(⊢)
+  dump(⊢)
   ⊸(≡DrawBoid⍉)
 )
 
