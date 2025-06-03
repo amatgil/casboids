@@ -33,5 +33,5 @@ I~Loop!(
   I~Draw~Background ÷255[30 30 46]
   ⍜⊢+ ⟜(/+[⊃(R₁|R₂|R₃)]) # add up rules
   \+                     # update positions
-  ⊸(≡DrawBoid⍉)          # Not pervasive :(
+  ⊸DrawBoid
 )
