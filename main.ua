@@ -27,7 +27,5 @@ I~Open S_S "Boids"
 I~Loop!(
   I~Draw~Background I~Color~Hex "#1e1e2e"
   ⟜+ + ⟜⊸(/+[⊃(R₁|R₂|R₃)]) # add up rules, update
-  ?
-
   ◡DrawBoids
 )
