@@ -13,7 +13,7 @@ p₃ ← 4e-6 # how much they match velocity
 p₄ ← 6e-6 # how much being close influences their velocity
 
 R₁ ← |2 ×p₁-⟜(÷⊃⧻/+) ◌
-R₂ ← |2 ×p₄¯/+˙⊞(×⊸(<p₂⌵)-) ◌
+R₂ ← |2 ×p₄¯/+ ×⊸(<p₂⌵)˙⊞- ◌
 R₃ ← |2 ×p₃-⟜(÷⊃⧻/+) ⊙◌
 
 DrawBoids ← (
