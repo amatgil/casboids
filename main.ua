@@ -7,10 +7,10 @@ S ← 1000 # window size
 # Boids = [vs xs]
 # Rules take in Boids and return the delta velocities
 
-p₁ ← 0.000001 # how much they're attracted to the COM
-p₂ ← ÷10S     # how close they have to be to get repelled
-p₃ ← 0.000004 # how much they match velocity
-p₄ ← 0.000006 # how much being close influences their velocity
+p₁ ← 1e-6 # how much they're attracted to the COM
+p₂ ← ÷10S # how close they have to be to get repelled
+p₃ ← 4e-6 # how much they match velocity
+p₄ ← 6e-6 # how much being close influences their velocity
 
 R₁ ← |1 ×p₁-⟜(÷⊃⧻/+)⊣
 R₂ ← |1 ×p₄¯/+˙⊞(×⊸(<p₂⌵)-) ⊣
