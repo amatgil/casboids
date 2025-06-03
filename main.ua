@@ -21,11 +21,10 @@ DrawBoids ← (
   I~Draw~Sector I~Color~Hex "#cba6f7" 20
 )
 
-I~Open S_S "Boids"
-
 ⊚N /ℂ×S gen2_N⚂
+I~Open S_S "Boids"
 I~Loop!(
   I~Draw~Background I~Color~Hex "#1e1e2e"
-  ⟜+ + ⟜⊸(/+[⊃(R₁|R₂|R₃)]) # add up rules, update
+  ⟜++⟜⊸(/+[⊃(R₁|R₂|R₃)]) # add up rules, update
   ◡DrawBoids
 )
