@@ -11,7 +11,7 @@ S ← 1000 # window size
 
 # factor of displacement for Rule 1
 p₁ ← 0.000001 # how much they're attracted to the COM
-p₂ ← 100      # how close they have to be to get repelled
+p₂ ← ÷10S     # how close they have to be to get repelled
 p₃ ← 0.000004 # how much they match velocity
 p₄ ← 0.000006 # how much being close influences their velocity
 
