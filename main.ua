@@ -22,7 +22,7 @@ R₃ ← |1 ×p₃-⟜(÷⊃⧻/+)⊢
 # ? [v x]
 DrawBoid ← (
   ⊃(⤚(-÷₂)0.1 ÷τ-η˜∠°ℂ ⊢|⊣)
-  I~Draw~Sector ÷255[203 166 247] 20
+  I~Draw~Sector I~Color~Hex "#cba6f7" 20
 )
 
 [(⊚N) (/ℂ×S gen2_N⚂)]
@@ -30,7 +30,7 @@ DrawBoid ← (
 I~Open S_S "Boids"
 
 I~Loop!(
-  I~Draw~Background ÷255[30 30 46]
+  I~Draw~Background I~Color~Hex "#1e1e2e"
   ⍜⊢+ ⟜(/+[⊃(R₁|R₂|R₃)]) # add up rules
   \+                     # update positions
   ⊸DrawBoid
