@@ -3,4 +3,4 @@ In uiua!
 
 Here's a demonstration of it running:
 
-![Boids moving around hypnotically](./showcase.mp4)
+![Boids moving around hypnotically](./showcase.gif)
