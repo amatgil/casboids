@@ -3,6 +3,4 @@ In uiua!
 
 Here's a demonstration of it running, featuring gif artifacts and substantial slowdown:
 
-![Boids moving around hypnotically](./showcase.gif)
-
-![the actual footage is real-speed and doesn't contain artifacts](./showcase.mp4)
+https://github.com/user-attachments/assets/53ea6fb5-f0de-43ab-9507-e6af1502e6da
